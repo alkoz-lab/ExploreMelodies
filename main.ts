@@ -15,7 +15,7 @@ function showMelodie() {
 input.onButtonPressed(Button.A, function () {
     melodieIndex += 1
     if (melodieIndex >= melodies.length) {
-        melodieIndex = 1
+        melodieIndex = 0
     }
     showMelodie()
 })
